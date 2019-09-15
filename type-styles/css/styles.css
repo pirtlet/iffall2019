@@ -1,0 +1,112 @@
+body {
+	background-color: #b4e3c5;
+	color: #c23606;
+	margin-left: 6em;
+	margin-top: 4em
+	}
+
+.Crimson {
+	font-size: 48px;
+	font-weight: bold;
+	}
+
+.CrimsonSubhead {
+	font-family: Arial, serif;
+	font-size: 21px;
+	line-height: 1.25;
+	}
+
+.FontHeader1 {
+	font-family: Arial, serif;
+	font-size: 21px;
+	color: #cf7655;
+	font-weight: bold;
+	}
+
+.Submini {
+	font-family: Arial, serif;
+	font-size: 12px;
+	color: #cf7655;
+	}
+
+.Sentence1 {
+	font-family: 'Crimson Text', serif;
+	color: #c23606;
+	}
+
+.Sentence2 {
+	font-weight: bold;
+	}
+
+.FontHeader2 {
+	font-family: Arial, serif;
+	font-size: 21px;
+	color: #cf7655;
+	font-weight: bold;
+	}
+
+.Sentence3 {
+	font-style: normal;
+	}
+
+.Sentence4 {
+	font-style: italic;
+	}
+
+.FontHeader3 {
+	font-family: Arial, serif;
+	font-size: 21px;
+	color: #cf7655;
+	font-weight: bold;
+	}
+
+.Sentence5 {
+	letter-spacing: normal;
+	}
+
+.Sentence6 {
+	letter-spacing: .3em;
+	}
+
+.Sentence7 {
+	letter-spacing: -.06em;
+	}
+
+.Sentence8 {
+	text-decoration: none;
+	}
+
+.Sentence9 {
+	text-decoration: underline;
+	}
+
+.Sentence10 {
+	text-decoration: line-through;
+	}
+
+.Sentence11 {
+	text-decoration: overline;
+	}
+
+.Sentence12 {
+	text-transform: none;
+	}
+
+.Sentence13 {
+	text-transform: uppercase;
+	}
+
+.Sentence14 {
+	text-transform: lowercase;
+	}
+
+.Sentence15 {
+	text-transform: capitalize;
+	}
+
+
+
+
+
+
+
