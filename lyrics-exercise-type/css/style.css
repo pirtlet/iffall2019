@@ -1,0 +1,32 @@
+body {
+	font-family: 'Gayathri', sans-serif;
+	background-color: #ed001c;
+	margin-top: 6em;
+	margin-bottom: 6em;
+	}
+
+.TheWeeknd {
+	color: #f5db00;
+	margin-left: 1em;
+	}
+
+.STARBOY {
+	color: #f5db00;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	font-weight: bold;
+	font-size: 100px;
+	margin-left: .15em;
+	}
+
+.Verse {
+	color: #001ca0;
+	margin-left: 9em;
+	margin-right: 54em;
+	}
+
+.Chorus {
+	color: #f5db00;
+	margin-left: 11em;
+	margin-right: 57em;
+	}
