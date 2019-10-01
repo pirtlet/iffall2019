@@ -1,0 +1,97 @@
+body {
+	font-family: 'Archivo Narrow', sans-serif;
+	}
+
+header {
+	background-color: rgba(255,0,0,0.1);
+	text-align: center;
+	padding: 150px 2px 182px 0;
+	background-image: url("../images/Lake_Box_Model.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #f3e210;
+	}
+
+h1 {
+	margin: 0 0 0 0;
+	font-size: 80px;
+	font-style: bold;
+	}
+
+h2 {
+	margin: 0 0 0 0;
+	font-size: 30px;
+	}
+
+h3 {
+	margin: 0 0 32px 0;
+	text-align: center;
+	font-size: 40px;
+	}
+
+.section1 img {
+	width: 400px;
+	height: 300px;
+	float: right;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	}
+
+section > div {
+ 	width: 960px;
+ 	background-color: (0,255,255,.5);
+ 	margin: auto;
+ 	padding: 40px 0 0 0;
+	}
+
+section.section1 {
+	background-color: rgba(255,0,0,0.1);
+	padding-bottom: 40px;
+	font-weight: bold;
+	}
+
+p {
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: -.4px;
+	line-height: 1.4;
+	}
+
+
+h4 {
+	margin: 0 0 0 0;
+	text-align: center;
+	font-size: 40px;
+	}
+
+section.section2 {
+	margin-top: 1px;
+	background-color: rgba(255,0,0,0.3) ;
+	padding-bottom: 40px;}
+	}
+
+h5 {
+	margin: 0 0 0 0;
+	text-align: center;
+	font-size: 40px;
+	}
+
+section.section3 {
+	background-color: rgba(255,0,0,0.1);
+	padding-bottom: 40px;}
+	}
+
+/*
+.section2 {
+	text-align: left;
+	margin-left: 180px;
+}
+
+.section3{
+
+}
+
+.section4 {
+
+}*/
