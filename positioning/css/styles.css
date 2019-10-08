@@ -1,0 +1,31 @@
+
+aside {
+	float: right;
+	}
+
+.aside2 {
+	position: relative;
+	left: 35px;
+	top: 137px;
+	}
+
+.aside3 {
+	background-color: green;
+	position: fixed;
+	right: 0;
+	top: 0;
+	}
+
+.aside4 {
+	background-color: black;
+	position: relative;
+	top: 20px;
+	right: 350px;
+	z-index: 10px;
+	}
+
+.aside5 {
+	background-color: red;
+	position: absolute;
+	right: 750px;
+	}
