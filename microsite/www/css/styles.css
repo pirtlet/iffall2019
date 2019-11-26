@@ -1,0 +1,222 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/*.button_container {
+	border: 3px solid #fff;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 200px;
+	height: 50px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+	}
+*/
+
+nav {
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 38px;
+	overflow: visible;
+}
+
+.button_container {
+	box-sizing: border-box;
+	padding: 20px;
+	}
+
+nav a {
+	display: inline-block;
+	margin: auto;
+	margin-top: 0
+	padding: 0
+	background-color: #fff;
+	font-size: 36px;
+	font-family: 'Bebas Neue', cursive;
+	color: #3d9987;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+nav a#logo {
+	height: auto;
+	width: 115px;
+	position: relative;
+	overflow: visible;
+}
+
+nav a img {
+	height: auto;
+	width: 115px;
+	z-index: 10;
+	position: absolute;
+	top: -70px;
+}
+
+nav a #home {
+
+}
+
+
+/*a#home {
+	display: inline-block;
+	margin: auto;
+	margin-top: 0
+	padding: 0
+	background-color: #fff;
+	font-size: 36px;
+	font-family: 'Bebas Neue', cursive;
+	color: #3d9987;
+	text-decoration: none;
+}
+
+a#team {
+	display: inline-block;
+	margin: auto;
+	margin-top: 0
+	padding: 0
+	background-color: #fff;
+	font-size: 36px;
+	font-family: 'Bebas Neue', cursive;
+	color: #3d9987;
+	text-decoration: none;
+}
+*/
+
+#body1 {
+	background-color: #e01a23;
+	font-family: 'Open Sans', sans-serif;
+	background-image: url(../images/liverpool-team-pose.jpg);
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+/*h1 {
+	font-family: 'Bebas Neue', cursive;
+	color: #3d9987;
+	background-color: #fff;
+	padding: 1em;
+	margin-left: 10%;
+	margin-right: 0;
+}
+*/
+
+img {
+	position: relative;
+	z-index: 10;
+	width: 10%;
+	margin-left: 5%;
+	margin-top: 3%;
+}
+
+#body2 {
+	background-color: #e01a23;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #fff;
+}
+
+#aside1 {
+	width: 170px;
+    margin: 10px;
+    font-size: 0.8rem;
+    box-sizing: border-box;
+    display: inline-block;
+	}	
+
+#team-div {
+	display: inline-block;
+	width: auto;
+	margin: auto;
+	padding: 25px 125px 0 125px;
+	
+}
+
+#team-h1 {
+	font-size: 42px;
+	font-family: 'Bebas Neue', cursive;
+	color: #fff;
+	padding: 50px 0 0 0;
+	letter-spacing: 1px;	
+}
+
+#team-ul {
+	padding: 25px 0 0 0;
+	
+}
+
+#team-li {
+	width: 30%;
+	height: 164px;
+	padding: 0;
+	box-sizing: border-box;
+	display: inline-block;
+	margin-top: 10px;
+	padding-right: 35px;
+	list-style-type: none;
+
+}
+
+#team-portrait {
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin: 0 12px 0 0;
+	display: inline-block;
+}
+
+#team-h2 {
+	margin: 0 0 0 0;
+	font-size: 21px;
+	font-family: 'Bebas Neue', cursive;
+	color: #fff;
+	padding: 0;
+	line-height: 1;
+	text-transform: uppercase;
+}
+
+#subhead {
+	background-color: #e01a23;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 21px;
+	color: #fff;
+	text-transform: uppercase;
+	font-style: bold;
+}
+
+#number-stats {
+	font-size: 80px;
+	font-family: 'Bebas Neue', cursive;
+	color: #3d9987;
+	padding: 50px 0 0 0;
+	letter-spacing: 1px;
+	margin: 0 0 0 0;	
+	padding: 0 0 0 0;
+	text-align: center;
+}
+
+
+#stat-li {
+	width: 15%;
+	height: 164px;
+	padding: 0;
+	box-sizing: border-box;
+	display: inline-block;
+	margin-top: 10px;
+	padding-right: 50px;
+	list-style-type: none;
+}
+
+#stat-li p {
+	text-align: center;
+	margin-top: 5px;
+	padding: 0 0 0 0;
+
+
+
