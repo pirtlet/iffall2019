@@ -1,0 +1,334 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	text-align: center;
+	font-size: 10px;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	padding-top: 80px;
+	padding-bottom: 30px;
+	text-transform: uppercase;
+}
+
+a#source {
+	text-decoration: none;
+	white-space: nowrap;
+	text-align: center;
+	font-size: 10px;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+}
+
+nav {
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 38px;
+	overflow: visible;
+}
+
+.button_container {
+	box-sizing: border-box;
+	padding: 20px;
+	}
+
+nav a {
+	display: inline-block;
+	margin: auto;
+	margin-top: 0
+	padding: 0
+	background-color: #fff;
+	font-size: 36px;
+	font-family: 'Bebas Neue', cursive;
+	color: #3d9987;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+nav a#logo {
+	height: auto;
+	width: 115px;
+	position: relative;
+	overflow: visible;
+}
+
+nav a img {
+	height: auto;
+	width: 115px;
+	z-index: 10;
+	position: absolute;
+	top: -70px;
+}
+
+nav a#home:hover {
+	transform: scale(1.25);
+	transition: all 0.2s;
+}
+
+/*nav a#home {
+	transform: scale(1);
+	transition: all 0.2s;
+}*/
+
+nav a#team:hover {
+	transform: scale(1.25);
+	transition: all 0.2s;
+}
+
+/*nav a#team {
+	transform: scale(1);
+	transition: all 0.2s;
+}*/
+
+nav a#stats:hover {
+	transform: scale(1.25);
+	transition: all 0.2s;
+}
+
+/*nav a#stats {
+	transform: scale(1);
+	transition: all 0.2s;
+}
+*/
+nav a#matches:hover {
+	transform: scale(1.25);
+	transition: all 0.2s;
+}
+
+/*nav a#matches {
+	transform: scale(1);
+	transition: all 0.2s;
+}*/
+
+nav a img:hover {
+	transform: scale(1.25);
+	transition: all 0.2s;
+}
+
+
+#body1 {
+	background-color: #e01a23;
+	font-family: 'Open Sans', sans-serif;
+	background-image: url(../images/liverpool-team-pose.png);
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	padding-bottom: 300px;
+	overflow: visible;
+}
+
+img {
+	position: relative;
+	z-index: 10;
+	width: 10%;
+	margin-left: 5%;
+	margin-top: 3%;
+}
+
+#body2 {
+	background-color: #e01a23;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #fff;
+}
+
+#aside1 {
+	width: 170px;
+    margin: 10px;
+    font-size: 0.8rem;
+    box-sizing: border-box;
+    display: inline-block;
+	}	
+
+#team-div {
+	display: inline-block;
+	width: auto;
+	margin: auto;
+	padding: 25px 125px 0 125px;	
+}
+
+#team-h1 {
+	font-size: 42px;
+	font-family: 'Bebas Neue', cursive;
+	color: #fff;
+	padding: 50px 0 0 0;
+	letter-spacing: 1.25px;	
+}
+
+#team-ul {
+	padding: 25px 0 0 0;
+}
+
+#team-li {
+	width: 30%;
+	height: 164px;
+	padding: 0;
+	box-sizing: border-box;
+	display: inline-block;
+	margin-top: 10px;
+	padding-right: 35px;
+	list-style-type: none;
+
+}
+
+#team-portrait {
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin: 0 12px 0 0;
+	display: inline-block;
+}
+
+#team-h2 {
+	margin: 0 0 0 0;
+	font-size: 21px;
+	font-family: 'Bebas Neue', cursive;
+	color: #fff;
+	padding: 0;
+	line-height: 1;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+
+#subhead {
+	background-color: #e01a23;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 21px;
+	color: #fff;
+	text-transform: uppercase;
+	font-style: bold;
+}
+
+#number-stats {
+	font-size: 80px;
+	font-family: 'Bebas Neue', cursive;
+	color: #3d9987;
+	letter-spacing: 1px;
+	margin: 0 0 0 0;	
+	padding: 0 0 0 0;
+	text-align: center;
+	list-style-type: none;
+}
+
+
+#stat-li {
+	height: 164px;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 0 0 0 0;
+	padding-right: 50px;
+	list-style-type: none;
+	border: 1px solid #fff;
+	border-radius: 1px;
+    padding: 20px;
+    width: 275px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #e4ada2;
+}
+
+#number-headers {
+	text-align: center;
+	margin-top: 5px;
+	padding: 0 0 0 0;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	font-weight: 200px;
+}
+
+#stat-li-img {
+	height: 164px;
+	display: inline-block;
+	margin: 0 0 0 0;
+	padding-right: 50px;
+	list-style-type: none;
+    padding: 20px;
+    width: 425px;
+    float: left;
+    text-align: center;
+}
+
+#stat-img {
+	width: 250px;
+	margin: 0 0 0 0;
+}
+
+#stat-img-div {
+	display: inline-block;
+	width: auto;
+	margin-bottom: 125px;
+	padding: 25px 125px 0px 125px;	
+}
+
+#stat-li-attack {
+	height: 164px;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 0 0 0 0;
+	padding-right: 50px;
+	list-style-type: none;
+	border: 1px solid #fff;
+	border-radius: 1px;
+    padding: 20px;
+    width: 325px;
+    height: 190px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #e4ada2;
+}
+
+footer {
+	padding-bottom: 70px;
+}
+
+#column {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	padding: 25px 125px 0 125px;
+	float: left;
+	/*column-count: 2;
+	column-gap: 30px;*/
+	overflow: hidden;
+}
+
+
+#kicking-ball {
+	width: 43%;
+	height: auto;
+	margin-right: 125px;
+	margin-left: 700px;
+	padding-bottom: 15px;
+	float: right;
+	display: inline-block;
+	position: absolute;
+	z-index: 10;
+	overflow: hidden;
+}
+
+
+#history-li {
+	width: 48%;
+	height: 164px;
+	display: inline-block;
+	margin-top: 10px;
+	padding-right: 35px;
+}
+
+/*#history-li p {
+	column-count: 2;
+	column-gap: 30px;
+}*/
+
+
+
+
+
