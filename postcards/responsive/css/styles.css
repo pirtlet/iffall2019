@@ -1,0 +1,264 @@
+html, body {
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	text-decoration: none;
+}
+
+#body1 {
+	background-image: url(../JFK-Edit.jpg);
+	background-size: cover;
+	background-position: 20%;
+}
+
+#quote1
+{	position: absolute;
+	top: 15%;
+	left: 5%;
+	right: 40%;
+	bottom: 10%;
+	z-index: 10;
+	font-size: 52px;
+	font-weight: bold;
+	color: #fff;
+}
+
+#author1
+{	position: absolute;
+	top: 43%;
+	left: 5%;
+	right: 5%;
+	bottom: 0;
+	z-index: 10;
+	font-size: 38px;
+	color: #fff;
+}
+
+#body2 {
+	background-image: url(../MLK-Edit.jpg);
+	background-size: cover;
+	background-position: 20%;
+}
+
+#quote2
+{	position: absolute;
+	top: 15%;
+	left: 5%;
+	right: 5%;
+	bottom: 25%;
+	z-index: 10;
+	font-size: 43px;
+	font-weight: bold;
+	color: #fff;
+}
+
+#author2
+{	position: absolute;
+	top: 35%;
+	left: 5%;
+	right: 5%;
+	bottom: 0;
+	z-index: 10;
+	font-size: 38px;
+	color: #fff;
+}
+
+#body3 {
+	background-image: url(../Lincoln-Edit.jpg);
+	background-size: cover;
+	background-position: 20%;
+}
+
+#quote3
+{	position: absolute;
+	top: 15%;
+	left: 5%;
+	right: 55%;
+	bottom: 25%;
+	z-index: 10;
+	font-size: 47px;
+	font-weight: bold;
+	color: #fff;
+}
+
+#author3
+{	position: absolute;
+	top: 35%;
+	left: 5%;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	font-size: 35px;
+	color: #fff;
+}
+
+
+@media (max-width: 1310px) {
+	
+	#quote1 {
+		font-size: 47px;
+	}
+	
+	#author1 {
+		font-size: 32px;
+	}
+}
+
+@media (max-width: 1120px) {
+	
+	#quote1 {
+		font-size: 40px;
+	}
+
+	#author1 {
+		font-size: 26px;
+		top: 60%;
+	}
+}
+
+@media (max-width: 1179px) {
+	
+	#quote1 {
+		font-size: 40px;
+	}
+
+	#author1 {
+		font-size: 26px;
+		top: 45%;
+	}
+}
+
+@media (max-width: 1003px) {
+	
+	#quote1 {
+		font-size: 39px;
+	}
+
+	#author1 {
+		font-size: 23px;
+		top: 45%;
+	}
+}
+
+@media (max-width: 750px) {
+	
+	#quote1 {
+		font-size: 35px;
+	}
+
+	#author1 {
+		font-size: 21px;
+		top: 47%;
+	}
+}
+
+@media (max-width: 546px) {
+	
+	#quote1 {
+		font-size: 32px;
+	}
+
+	#author1 {
+		font-size: 18px;
+		top: 50%;
+	}
+}
+
+
+@media (max-width: 398px) {
+	
+	#quote1 {
+		font-size: 32px;
+	}
+
+	#author1 {
+		font-size: 18px;
+		top: 57%;
+	}
+}
+
+@media (max-width: 1310px) {
+	
+	#quote2 {
+		font-size: 40px;
+	}
+
+	#author2 {
+		font-size: 36px;
+		top: 35%;
+	}
+}
+
+@media (max-width: 1054px) {
+	
+	#quote2 {
+		font-size: 36px;
+	}
+
+	#author2 {
+		font-size: 34px;
+		top: 35%;
+	}
+}
+
+@media (max-width: 730px) {
+	
+	#quote2 {
+		font-size: 33px;
+	}
+
+	#author2 {
+		font-size: 31px;
+		top: 38%;
+		right: 75%;
+	}
+}
+
+@media (max-width: 1137px) {
+	
+	#author3 {
+		font-size: 33px;
+		top: 39%;
+	}
+}
+
+@media (max-width: 871px) {
+	
+	#author3 {
+		font-size: 30px;
+		top: 47%;
+	}
+}
+
+@media (max-width: 705px) {
+	
+	#quote3 {
+		font-size: 50px;
+	}
+
+	#author3 {
+		font-size: 27px;
+		top: 60%;
+	}
+}
+
+@media (max-width: 538px) {
+	
+	#quote3 {
+		font-size: 50px;
+	}
+
+	#author3 {
+		font-size: 27px;
+		top: 69%;
+		right: 80%;
+	}
+}
